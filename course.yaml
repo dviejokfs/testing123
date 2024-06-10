@@ -1,0 +1,19 @@
+title: Testing123
+
+
+projects:
+  - title: Practice Bun
+    description: This project helps you learn the basics of BUN
+    path: ./projects/get-started-with-bun
+    slug: get-started-with-bun
+
+chapters:
+
+    - title: Introduction
+      slug: introduction
+      description: This chapter introduces you to the course
+      lessons:
+          - title: Showcase
+            slug: showcase
+            description: This lesson showcases the capabilities of the platform
+            path: 01_intro/01_INTRO.mdx

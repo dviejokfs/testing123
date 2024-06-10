@@ -1,0 +1,97 @@
+# Welcome to the template
+
+You will find in this file a quick overview of the features of the template.
+
+You have full access to markdown and react components.
+
+## Code
+
+Code with highlighting on most language:
+
+```bash
+npm install @openwebauth/credo
+npm install @openwebauth/credo-postgres-wallet
+```
+
+
+
+## Headings:
+
+
+# H1
+## H2
+### H3
+
+
+## Lists
+
+- Item 1
+- Item 2
+- Item 3
+
+## Numbered lists
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+
+## Javascript code
+
+```javascript
+const a = 1;
+const b = 2;
+const c = a + b;
+console.log(c);
+```
+
+## Raw HTML
+<p>Test</p>
+
+## Project 
+
+You can embed a project for the student, the student will be able to clone the project and start it locally in their machine.
+
+<Project id="get-started-with-bun" />
+
+## Quizzes
+
+You can define quizzes in the markdown file, the student will be able to answer the questions and get feedback.
+
+You will be able to see the results of the quizzes in the dashboard.
+
+### True or false quiz
+
+<TrueOrFalseQuiz slug="q1" correctAnswer={false}>
+  <Question>
+    The sky is not blue
+  </Question>
+</TrueOrFalseQuiz>
+
+
+
+
+### Multiple choice quiz
+
+<MultipleChoiceQuiz slug="q2" correctAnswer={0}>
+<Question> 
+What's the correct output for the following code snippet? `1122`
+
+
+```javascript
+const a = 1;
+const b = 2;
+const c = a + b;
+console.log(c);
+```
+</Question>
+
+<Option>
+The result is \`3\` dd. Link [here](https://www.google.com)
+</Option>
+<Option>7</Option>
+<Option>9</Option>
+<Option>3</Option>
+
+</MultipleChoiceQuiz>
+
